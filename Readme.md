@@ -38,11 +38,31 @@ Include steps on how to set up the project locally. This may include instruction
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/Kashif-Kamran/01-Example_Program
 
 # Navigate to the project directory
-cd your-project
+cd 01-Example_Program
 
 # Install dependencies
 npm install
+# Run Prisma migrations
+npx prisma migrate dev
+# Usage
+
+# Provide examples and explanations of how to use the project.
+
+# Include any relevant code snippets or configurations.
+
+# Run the application in development mode
+
+# Run the application in development mode
+npm run dev
 ```
+
+## Contributing
+
+We welcome contributions from the community! To contribute to this project, please follow the guidelines outlined in our [Contributor Covenant Code of Conduct](CONTRIBUTING.md).
+
+If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
+
+Thank you for contributing to our project!

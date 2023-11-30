@@ -45,6 +45,7 @@ cd 01-Example_Program
 
 # Install dependencies
 npm install
+
 # Run Prisma migrations
 npx prisma migrate dev
 # Usage

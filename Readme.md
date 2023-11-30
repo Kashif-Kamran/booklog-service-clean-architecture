@@ -49,12 +49,6 @@ npm install
 npx prisma migrate dev
 # Usage
 
-# Provide examples and explanations of how to use the project.
-
-# Include any relevant code snippets or configurations.
-
-# Run the application in development mode
-
 # Run the application in development mode
 npm run dev
 ```

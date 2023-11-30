@@ -56,7 +56,7 @@ npm run dev
 
 ## Contributing
 
-We welcome contributions from the community! To contribute to this project, please follow the guidelines outlined in our [Contributor Covenant Code of Conduct](CONTRIBUTING.md).
+Hey, Community I (Kashif Kamran) Welcome you to contribute. To contribute to this project, please follow the guidelines outlined in our [Contributor Covenant Code of Conduct](CONTRIBUTING.md).
 
 If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
 

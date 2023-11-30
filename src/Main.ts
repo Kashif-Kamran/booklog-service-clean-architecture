@@ -1,5 +1,4 @@
 import { CreateLogBookUseCase } from "./application/CreateLogBookUseCase";
-import { InMemoryLogBookRepository } from "./infrastructure/InMemoryLogBookRepository";
 import { CreateLogBookController } from "./presentation/CreateLogBookController";
 import { ApiServer } from "./presentation/ApiServer";
 import { PrismaClient } from "@prisma/client";
@@ -12,12 +11,11 @@ export async function main(): Promise<void> {
   responsible for creating the dependencies of the outer layers and passing them to the
   inner layers.
   */
-  const prismaClient = new PrismaClient();
-  const prismaRepo = new PrismaLogBookRepository(prismaClient);
-
-  const inMemoryRepo = new InMemoryLogBookRepository();
+  const prismaClient = new PrismaClient(); // DB Client
+  const prismaRepo = new PrismaLogBookRepository(prismaClient); // Repository
   const useCase = new CreateLogBookUseCase(prismaRepo);
   const controller = new CreateLogBookController(useCase);
+  // Server is Running to handle the requests
   await ApiServer.run(3000, controller);
 }
 

@@ -1,4 +1,4 @@
-# Project Name
+# Book Log Service (Clean Architecture)
 
 A Clean Architecture project with a focus on Dependency Injection and Inversion of Control.
 
